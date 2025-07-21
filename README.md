@@ -1,7 +1,6 @@
 ## 🤖 NICEPAY MCP Tool 프롬프트 가이드 (@nicepay/start-api-mcp)
 
-NICEPAY의 `FOR START API`를 손쉽게 연동할 수 있도록 설계된 **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)** 의 프롬프트 사용법을 안내합니다.  
-Model Context Protocol(MCP) 환경에서 LLM과 대화하듯 자연어로 결제 요청, 승인, 취소, 현금영수증 발급까지 모두 처리할 수 있습니다.
+NICEPAY의 `FOR START API`를 손쉽게 연동할 수 있도록 설계된 **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)** 의 프롬프트 사용법을 안내합니다. Model Context Protocol(MCP) 환경에서 LLM과 대화하듯 자연어로 결제 요청, 승인, 취소, 현금영수증 발급까지 모두 처리할 수 있습니다.
 
 💬 [개발언어별 프롬프트 예시](#-개발언어별-프롬프트-예시) 보기
 - 🟩 [Node.js](prompts/nodejs.md)

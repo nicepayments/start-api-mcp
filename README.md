@@ -1,6 +1,8 @@
 ## 🤖 NICEPAY MCP Tool 프롬프트 가이드 (@nicepay/start-api-mcp)
 
-NICEPAY의 `FOR START API`를 손쉽게 연동할 수 있도록 설계된 **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)** 의 프롬프트 사용법을 안내합니다. Model Context Protocol(MCP) 환경에서 LLM과 대화하듯 자연어로 결제 요청, 승인, 취소, 현금영수증 발급까지 모두 처리할 수 있습니다.
+- NICEPAY의 `FOR START API`를 보다 쉽게 연동할 수 있도록 **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)** 기반 프롬프트 사용 가이드를 제공합니다.
+- MCP Tool을 활용하면 LLM과 대화하듯 자연어로 결제 요청, 승인, 취소, 현금영수증 발급까지 처리할 수 있습니다.  
+- LLM이 적절하게 Tool을 호출할 수 있도록, 아래의 [개발언어별 프롬프트 예시](#-개발언어별-프롬프트-예시)를 반드시 확인해주세요.
 
 💬 [개발언어별 프롬프트 예시](#-개발언어별-프롬프트-예시) 보기
 - 🟩 [Node.js](prompts/nodejs.md)
@@ -81,7 +83,7 @@ NICEPAY는 테스트와 운영 환경을 **도메인 기준으로 완전히 분�
 | get_terms                        | 약관 조회                        | 전자금융거래, 개인정보 수집 등 관련 약관 내용을 조회합니다. |
 | get_card_promotions              | 카드 이벤트 조회                 | 카드사의 포인트 적립 및 무이자 혜택 정보를 조회합니다. |
 | list_interest_free_installments | 무이자 할부 정보 조회           | 카드사별 무이자 할부 조건을 조회합니다. |
-| search_nicepay_qna | QnA 유사질문 검색 | NICEPAY 연동과 관련된 FAQ 데이터셋을 벡터 검색 기반으로 조회하여, 사용자의 자연어 질문에 가장 유사한 QnA 응답을 반환합니다. |
+| search_nicepay_qna | QnA 유사질문 검색 | NICEPAY 연동과 관련된 FAQ 데이터셋을 기반으로 조회하여, 유사한 QnA 응답을 반환합니다. |
 > `create_payment_window` Tool은 브라우저 기반으로 실행되는 클라이언트용 Tool입니다. 서버에서는 사용할 수 없습니다.
 
 

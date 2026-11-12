@@ -73,9 +73,6 @@ NICEPAY는 테스트와 운영 환경을 **도메인 기준으로 완전히 분�
 | create_payment_window             | 결제창 호출                      | NICEPAY JS SDK를 사용해 브라우저에서 결제창을 호출합니다. |
 | approve_payment                   | 결제 승인                        | 결제 인증 후 거래를 승인 처리합니다. |
 | cancel_payment                    | 결제 취소                        | 전체 또는 부분 결제를 취소합니다. |
-| create_billing_key               | 빌링키 발급                      | 암호화된 카드 정보를 이용해 정기결제용 빌링키를 발급합니다. |
-| approve_billing_payment          | 빌링키 결제 승인                 | 발급된 빌링키를 통해 정기결제를 승인합니다. |
-| expire_billing_key               | 빌링키 만료                      | 더 이상 사용하지 않는 빌링키를 만료(삭제) 처리합니다. |
 | create_cash_receipt              | 현금영수증 발급                  | 현금 결제 건에 대한 현금영수증을 발급합니다. |
 | cancel_cash_receipt              | 현금영수증 취소                  | 이미 발급된 현금영수증을 취소합니다. |
 | get_cash_receipt_status          | 현금영수증 상태 조회             | 현금영수증의 처리 상태를 조회합니다. |
